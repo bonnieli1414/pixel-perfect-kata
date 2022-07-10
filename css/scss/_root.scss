@@ -1,5 +1,5 @@
 .container {
-    max-width: $primary-width;
+    width: $primary-width;
     margin: 0 auto;
 }
 
@@ -9,7 +9,7 @@ main {
 }
 
 .container-img {
-    max-width: 96px;
+    width: 96px;
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +29,7 @@ main {
 }
 
 .img-width216 {
-    max-width: 216px;
+    width: 216px;
 }
 
 footer {

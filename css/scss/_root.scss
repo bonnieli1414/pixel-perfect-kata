@@ -1,0 +1,54 @@
+.container {
+    max-width: $primary-width;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+.container-img {
+    max-width: 96px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-content {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+        font-size: 20px; 
+        line-height: 1.2;
+    }
+    span {
+        font-size: 12px;
+    }
+}
+
+.img-width216 {
+    max-width: 216px;
+}
+
+footer {
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+
+.font-size13 {
+    font-size: 13.7px;
+    padding-bottom: 10px;
+}

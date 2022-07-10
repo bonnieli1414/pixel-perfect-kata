@@ -1,0 +1,17 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+img{   
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+/* a 標籤加上 display: block 可以增加點擊範圍 */
+a{
+	display: block;
+}
+body {
+    font-family: Microsoft JhengHei, Apple LiGothic;
+    font-size: 16px;
+    line-height: 1.5;
+  }

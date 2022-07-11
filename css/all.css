@@ -98,36 +98,22 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
-.container-content h1 {
+.container-content h1,
+.container-content h2 {
   font-size: 20px;
   line-height: 1.2;
 }
-.container-content span {
-  font-size: 12px;
-}
 
-.img-width216 {
-  width: 216px;
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 footer {
   text-align: center;
-  padding: 48px 0px;
-}
-
-.mb-24 {
-  margin-bottom: 24px;
+  padding: 48px 0;
 }
 
 .mt-24 {
   margin-top: 24px;
-}
-
-.font-size14 {
-  font-size: 14px;
-}
-
-.font-size13 {
-  font-size: 13.7px;
-  padding-bottom: 10px;
 }/*# sourceMappingURL=all.css.map */
